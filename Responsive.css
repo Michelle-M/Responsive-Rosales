@@ -1,0 +1,150 @@
+body {
+    background-color: #F8F8F7;
+}
+.Logo img {
+    width: 15%;
+    margin-left: 42.5%;
+    padding-bottom: 10px;
+}
+.Links {
+    border: #F8F8F7 solid 2px;
+    width: auto;
+    height: 70px;
+    background-color: #7AAAAC;
+}
+.Link-1 {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: -65px;
+}
+.Link-2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+a {
+    margin-left: 47.5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Banner {
+    background-color: #F8F8F7;
+    margin-top: 10px;
+    width: auto;
+}
+.Banner img {
+    width: 30%;
+    margin-left: 35%;
+}
+.Side-bar {
+    background-color: #7AAAAC;
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+}
+.Side-bar p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: lighter;
+    font-size: 20px; 
+    color: white;
+    text-align: center;
+}
+.Descripción {
+    float: right;
+    background-color: #F8F8F7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 79%;
+    height: 27.5%;
+    text-align: center;
+    border: solid 4px  #7AAAAC;
+    padding-right: 3px;
+}
+.descripcion {
+    padding-bottom: 5px;
+}
+Footer {
+    width: 100%;
+    height: 20%;
+    background-color: #7AAAAC;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    clear: both;
+    padding-top: 5px;
+    border: solid 4px white;
+}
+.foot {
+    padding-bottom: 2px;
+}
+/*----RESPONSIVE---*/
+@media screen and (max-width: 1000px) {
+    .Logo img {
+        width: 20%;
+        margin-left: center;
+    }
+    .Banner img {
+        width: 50%;
+        margin-left: 28%;
+    }
+    .Side-bar {
+        height: 31.5%;
+    }
+    .Descripción {
+        width: 78.5%;
+        height: 33%;
+    }
+    .descripcion {
+        padding-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Logo img {
+        width: 25%;
+        margin-left: 40%;
+    }
+    .Links, .Link-1, .Link-2 {
+        display: none;
+    }
+    .Banner img {
+        width: 55%;
+        margin-left: 25%;
+    }
+    .Side-bar {
+        height: 34%;
+    }
+    .Descripción {
+        width: 78%;
+        height: 36%;
+    }
+    .descripcion {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .Logo img {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .Banner img {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .Links, .Link-1, .Link-2, .Side-bar {
+        display: none;
+    }
+    .Descripción {
+        width: auto;
+        height: auto;
+    }
+    Footer {
+        width: auto;
+        height: auto;
+    }
+    .descripcion {
+        font-size: 90%;
+    }
+}
